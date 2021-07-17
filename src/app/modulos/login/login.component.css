@@ -1,0 +1,40 @@
+.padre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 654px;
+}
+
+.form {
+  background: #FFF;
+  width: 500px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 20px;
+}
+
+.input {
+  width: 100%;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.form button:enabled {
+  border: 0;
+  color: #ccc;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  background: #43A047;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.form button {
+  width: 100%;
+}
+
+.form button:hover:enabled{
+  background: #43A047;
+}
